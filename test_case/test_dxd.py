@@ -3,7 +3,7 @@ API_URL="http://api.yansl.com:8084"
 
 def test_post_json_01(pub_data):
     method = "POST"  #请求方法，全部大写
-    feature = "用户模块"  # allure报告中一级分类
+    feature = "用户模块"  # allure报告中一级sss分类
     story = '用户登录'  # allure报告中二级分类
     title = "全字段正常流_1"  # allure报告中用例名字
     uri = "/signup"  # 接口地址
