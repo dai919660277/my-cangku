@@ -43,7 +43,7 @@ def test_post_json_02(pub_data):
     r = request_tool.request(method=method,url=uri,pub_data=pub_data,json_data=json_data,status_code=status_code,expect=expect,feature=feature,story=story,title=title)
     print(r.headers)
 
-
+print("我上传了这个")
 
 
 
